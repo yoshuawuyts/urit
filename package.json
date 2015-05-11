@@ -1,0 +1,37 @@
+{
+  "name": "urit",
+  "version": "1.0.0",
+  "description": "RFC 6570 uri templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/urit",
+  "keywords": [
+    "uri-template",
+    "uritemplate",
+    "url",
+    "uri",
+    "6570",
+    "template",
+    "urltemplate",
+    "url-template",
+    "thunk"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "curry": "^1.2.0",
+    "uritemplate": "^0.3.4"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.13",
+    "standard": "^3.7.3",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
