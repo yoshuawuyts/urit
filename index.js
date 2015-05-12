@@ -3,7 +3,7 @@ const uritemplate = require('uritemplate')
 module.exports = parse
 
 // parse a uri template
-// str, obj -> str
+// str -> str
 function parse (tmpl) {
   tmpl = tmpl || ''
   const parser = uritemplate.parse(tmpl)
